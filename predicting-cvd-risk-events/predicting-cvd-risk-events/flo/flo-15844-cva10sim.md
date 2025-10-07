@@ -1,26 +1,26 @@
 ---
-description: CVD10 Sim Code. Row Type Custom Formula Value Type Numeric Context Overtime
+description: CVA10 Sim Code. Row Type Custom Formula Value Type Numeric Context Overtime
 ---
 
-# FLO 15894
+# FLO 15844 CVA10SIM
 
 ```
 // M:x
 p={15853;;0}
 a=patID
 b=patDAT
-h=+$$evalRule^elibHULIB22(835299,a,b)                //HTN
-s=+$$evalRule^elibHULIB22(835300,a,b)                //Statin 
-a1=+$$getMessage^S2LPP3(835308,,0,a,b)                //Age
-sb=+$$getMessage^S2LPP3(835298,,0,a,b)                //Last SBP 
-tc1=$zabs($$lastResultsFrComp^LRESULT("CHOL",1,1,a))    //Cholesterol by Component
-tcc=$$sumMultSelect^JCUSTFORM1({15846;;0})            //Cholesterol Modify
-tc=$s(tcc>0:tcc,1:tc1)                                //If selected, then TC=130, else Pt's TCL
-hd1=$zabs($$lastResultsFrComp^LRESULT("HDL",1,1,a))    //HDL by Component
-hdc=$$sumMultSelect^JCUSTFORM1({15848;;0})            //Cholesterol modified
+h=+$$evalRule^elibHULIB22(835299,a,b)
+s=+$$evalRule^elibHULIB22(835300,a,b)
+a1=+$$getMessage^S2LPP3(835308,,0,a,b)
+sb=+$$getMessage^S2LPP3(835298,,0,a,b)
+tc1=$zabs($$lastResultsFrComp^LRESULT("CHOL",1,1,a))
+tcc=$$sumMultSelect^JCUSTFORM1({15846;;0})
+tc=$s(tcc>0:tcc,1:tc1)
+hd1=$zabs($$lastResultsFrComp^LRESULT("HDL",1,1,a))
+hdc=$$sumMultSelect^JCUSTFORM1({15848;;0})
 hd=$s(hdc>0:hdc,1:hd1)
-s=$s(hdc>0:1,1:s)                                    //If Cholesterol to be modified, then will also select Statin as True
-d1=+$$evalRule^elibHULIB22(835302,a,b)                
+s=$s(hdc>0:1,1:s)
+d1=+$$evalRule^elibHULIB22(835302,a,b)
 dc={15842;;3}
 d=$s(dc=1:1,dc=0:0,1:d1)
 sm1=+$$evalRule^elibHULIB22(835309,a,b)
