@@ -1,15 +1,24 @@
 ---
-description: >-
-  Reference: XGM25 "Enhancing Patient Safety with Improved Admissions Medication
-  Reconciliation [PAC15]"
+description: Documentation for Projects In Progress and Deployed
 ---
 
-# Admission Med Rec
+# Physician Builder Projects
 
-Issue: Changes to Admission Navigator consolidated PTA Medications and Prior to Admission Orders. Both need to be complete for Epic standard build to show Admission Navigator Complete
+MIT License. Open Source.&#x20;
 
-Goal: Determine steps for Admission Medication Review, Reconciliation, and Records Involved
+Completed:
 
-Deployed: 7/8
+* ASCVD CVD 2024 Risk Calculators
+* Gupta NSQIP Risk Calculators
+* GRACE InHospital 6 month Risk Calculators
+* Admission Med Rec Tip Text
+* CathPCI Risk Calculators
 
-Follow-up:?
+
+
+In Progress:
+
+* Cardiac PCI Quality Metric
+* Hospitalist Quality Metric Update
+* Secure Chat Templates Pharmacy
+
