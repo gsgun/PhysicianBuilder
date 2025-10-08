@@ -6,6 +6,7 @@
 
 * [Predicting CVD Risk Events](predicting-cvd-risk-events/predicting-cvd-risk-events/README.md)
   * [FLO](predicting-cvd-risk-events/predicting-cvd-risk-events/flo/README.md)
+    * [CUSTOM LIST FLO](predicting-cvd-risk-events/predicting-cvd-risk-events/flo/custom-list-flo.md)
     * [FLO 15821 ASCVD10](predicting-cvd-risk-events/predicting-cvd-risk-events/flo/flo-15821-ascvd10.md)
     * [FLO 15833 CVD10](predicting-cvd-risk-events/predicting-cvd-risk-events/flo/flo-15833-cvd10.md)
     * [FLO 15834 HF10](predicting-cvd-risk-events/predicting-cvd-risk-events/flo/flo-15834-hf10.md)
@@ -26,6 +27,9 @@
     * [CER 835309 SMOKER](predicting-cvd-risk-events/predicting-cvd-risk-events/cer-rules/cer-835309-smoker.md)
     * [CER 835306 HX OF ASCVD](predicting-cvd-risk-events/predicting-cvd-risk-events/cer-rules/cer-835306-hx-of-ascvd.md)
     * [CER 835421 SEX LOGIC SCORE](predicting-cvd-risk-events/predicting-cvd-risk-events/cer-rules/cer-835421-sex-logic-score.md)
+    * [CER 835298 SBP](predicting-cvd-risk-events/predicting-cvd-risk-events/cer-rules/cer-835298-sbp.md)
+    * [CER 835302 DM](predicting-cvd-risk-events/predicting-cvd-risk-events/cer-rules/cer-835302-dm.md)
+    * [CER 835297 BMI](predicting-cvd-risk-events/predicting-cvd-risk-events/cer-rules/cer-835297-bmi.md)
   * [ETX](predicting-cvd-risk-events/predicting-cvd-risk-events/etx.md)
 
 ## Gupta Surgery Risk Scores
