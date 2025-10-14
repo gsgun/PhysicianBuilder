@@ -36,6 +36,10 @@
 
 * [Untitled](gupta-surgery-risk-scores/untitled.md)
 
+## Data analytics
+
+* [Secure Chat](data-analytics/secure-chat.md)
+
 ## Admission Med Rec Tip Text
 
 * [Admission Med Rec](admission-med-rec-tip-text/admission-med-rec/README.md)
