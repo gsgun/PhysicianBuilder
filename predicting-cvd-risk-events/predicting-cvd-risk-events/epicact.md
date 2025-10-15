@@ -1,7 +1,7 @@
 ---
 description: >-
-  This activity works pretty well to load a non modal floating window. Just
-  changed the VCN and LVN to contain this smartform
+  This activity works pretty well to load a modal floating window. Just changed
+  the VCN and LVN to contain this smartform
 ---
 
 # EpicAct
