@@ -40,6 +40,7 @@
     * [ETX PH IP AMB ASCVD CVD - TIP \[24015\]](predicting-cvd-risk-events/predicting-cvd-risk-events/etx/etx-ph-ip-amb-ascvd-cvd-tip-24015.md)
   * [LQF](predicting-cvd-risk-events/predicting-cvd-risk-events/lqf/README.md)
     * [XML](predicting-cvd-risk-events/predicting-cvd-risk-events/lqf/xml.md)
+  * [EpicAct](predicting-cvd-risk-events/predicting-cvd-risk-events/epicact.md)
 
 ## Gupta Surgery Risk Scores
 

@@ -6,7 +6,7 @@ description: >-
 
 # ETX
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 HHS 101281 ASCVDRISK2024
 

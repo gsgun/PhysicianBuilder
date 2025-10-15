@@ -20,5 +20,4 @@ epicact:AC\_REPORT\_VIEWER\_FLOATING,RunParams:MR\_REPORTS||5^#PATIENTID#^304000
 
 epicact:IP\_ORDREC\_ADMISSION\_SPLITTER,RunParamsURLEncoded:TEMPLATE=IP\_ORDREC\_ADMISSION\_TEMPLATE||TOC=0||STARTUPSECTION=IP\_ORDREC\_ADMISSION\_SXS\_REVIEW\_SECTION
 
-
-
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
