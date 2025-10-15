@@ -93,6 +93,6 @@
   * [EpicAct](cath-pci-gdmt/cath-pci-gdmt/epicact.md)
   * [Troubleshooting Issues](cath-pci-gdmt/cath-pci-gdmt/troubleshooting-issues.md)
 
-## Group 1
+## To Do
 
-* [Bug Fix To Do List](group-1/bug-fix-to-do-list.md)
+* [Bug Fix To Do List](to-do/bug-fix-to-do-list.md)
