@@ -92,3 +92,7 @@
     * [CER 836408](cath-pci-gdmt/cath-pci-gdmt/cer/cer-836408.md)
   * [EpicAct](cath-pci-gdmt/cath-pci-gdmt/epicact.md)
   * [Troubleshooting Issues](cath-pci-gdmt/cath-pci-gdmt/troubleshooting-issues.md)
+
+## Group 1
+
+* [Bug Fix To Do List](group-1/bug-fix-to-do-list.md)
