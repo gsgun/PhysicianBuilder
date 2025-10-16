@@ -6,8 +6,8 @@ description: PCI GDMT CMS requirements
 
 Issue: Medications for GDMT for PCI need to be both ordered and discharge for PCI patients
 
-Goal: Determine steps for Admission Medication Review, Reconciliation, and Records Involved
+Goal: Create logic for both IP active medications check and discharge medications
 
-Deployed: 7/8
+Deployed:&#x20;
 
 Follow-up:?
