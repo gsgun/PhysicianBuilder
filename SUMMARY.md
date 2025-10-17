@@ -44,11 +44,14 @@
 
 ## Gupta Surgery Risk Scores
 
-* [Untitled](gupta-surgery-risk-scores/untitled.md)
-
-## Data analytics
-
-* [Secure Chat](data-analytics/secure-chat.md)
+* [Gupta Risk Scores](gupta-surgery-risk-scores/untitled/README.md)
+  * [FLO](gupta-surgery-risk-scores/untitled/flo.md)
+  * [CER](gupta-surgery-risk-scores/untitled/cer.md)
+  * [ETX](gupta-surgery-risk-scores/untitled/etx.md)
+  * [LQF 1366](gupta-surgery-risk-scores/untitled/lqf-1366/README.md)
+    * [XML](gupta-surgery-risk-scores/untitled/lqf-1366/xml.md)
+    * [Logic](gupta-surgery-risk-scores/untitled/lqf-1366/logic.md)
+  * [EpicAct](gupta-surgery-risk-scores/untitled/epicact.md)
 
 ## Admission Med Rec Tip Text
 
@@ -92,6 +95,10 @@
     * [CER 836408](cath-pci-gdmt/cath-pci-gdmt/cer/cer-836408.md)
   * [EpicAct](cath-pci-gdmt/cath-pci-gdmt/epicact.md)
   * [Troubleshooting Issues](cath-pci-gdmt/cath-pci-gdmt/troubleshooting-issues.md)
+
+## Data analytics
+
+* [Secure Chat](data-analytics/secure-chat.md)
 
 ## To Do
 
