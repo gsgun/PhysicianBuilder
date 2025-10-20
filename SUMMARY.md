@@ -45,7 +45,11 @@
 ## Gupta Surgery Risk Scores
 
 * [Gupta Risk Scores](gupta-surgery-risk-scores/untitled/README.md)
-  * [FLO](gupta-surgery-risk-scores/untitled/flo.md)
+  * [FLO](gupta-surgery-risk-scores/untitled/flo/README.md)
+    * [FLO 16026 Cardiac PreOp](gupta-surgery-risk-scores/untitled/flo/flo-16026-cardiac-preop.md)
+    * [FLO 16025 Respiratory PreOp](gupta-surgery-risk-scores/untitled/flo/flo-16025-respiratory-preop.md)
+    * [FLO 15818 Pneumonia PostOp](gupta-surgery-risk-scores/untitled/flo/flo-15818-pneumonia-postop.md)
+    * [FLO 15902 Prior ASA](gupta-surgery-risk-scores/untitled/flo/flo-15902-prior-asa.md)
   * [CER](gupta-surgery-risk-scores/untitled/cer.md)
   * [ETX](gupta-surgery-risk-scores/untitled/etx.md)
   * [LQF 1366](gupta-surgery-risk-scores/untitled/lqf-1366/README.md)
