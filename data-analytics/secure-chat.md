@@ -12,9 +12,9 @@ Template Editor
   * PNN
   * Extension -> Push Notifications
 * Criteria
-  * PNN - Recipient -> EMP 20670 -> Last Deparment Networking Most Recent
-  * Linked TLK Exists
-  * Type Chat Message
+  * PNN 200 - Recipient -> EMP 20670 -> Last Deparment Networking Most Recent
+  * PNN 530 - Linked TLK Exists
+  * PNN 100 - Chat Message
 * Columns
   * **Send Instant (PNN) \[90504]**
   * **In App Text (PNN) \[90506]**
