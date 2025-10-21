@@ -121,6 +121,11 @@
 
 * [Secure Chat](data-analytics/secure-chat.md)
 
+## StandardNotes
+
+* [ETX 24815 PHICUSTDTEST](standardnotes/secure-chat.md)
+* [ETX 24754 PHIPHOSPSTANDARDTEST](standardnotes/secure-chat-1.md)
+
 ## To Do
 
 * [Heart Failure ED Bug](to-do/heart-failure-ed-bug.md)

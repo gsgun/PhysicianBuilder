@@ -5,4 +5,7 @@ OPA ED HF fires based on location and not based on class&#x20;
 * Find OPA
   * OurPractice Advisory: PH ED BASE ORDER PANEL RECOMMENDATION FOR HF PATIENTS \[3603]
 * Look at Rules
+  * Recommend Patient Rule: Current Admission and Patient Class to be added
 * Submit Ticket
+
+Ticket # 3112568
