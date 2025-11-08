@@ -119,7 +119,8 @@
 
 ## Data analytics
 
-* [Secure Chat](data-analytics/secure-chat.md)
+* [Secure Chat](data-analytics/secure-chat/README.md)
+  * [SQL](data-analytics/secure-chat/sql.md)
 
 ## StandardNotes
 

@@ -13,6 +13,7 @@ Completed:
 * GRACE InHospital 6 month Risk Calculators
 * Admission Med Rec Tip Text
 * CathPCI Risk Calculators
+* Sepsis QI Hospitalist
 
 
 
@@ -21,4 +22,5 @@ In Progress:
 * Cardiac PCI Quality Metric
 * Hospitalist Quality Metric Update
 * Secure Chat Templates Pharmacy
+* ED Scoring Tools Rule Updates
 
