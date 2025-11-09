@@ -30,7 +30,17 @@ Template Editor
 
 
 
-**Secure Chat Conversation Report**
+**Secure Chat Conversation Template**
+
+**Criteria**&#x20;
+
+**-Last Login Department** TLK 2000 -> EMP -> 20670 -> Most Recent
+
+-Includes participant
+
+-Contact number = 1
+
+
 
 Hyperlink: EpicAct:AC\_RW\_STATUS,RunParams:101171|3713451
 
@@ -38,21 +48,26 @@ Hyperlink: EpicAct:AC\_RW\_STATUS,RunParams:101171|3713451
 
 #### Columns for Export. Custom Columns needed for Item return
 
-1. Chat Conversation ID \[33165]
-2. TLK 8 \[100741]
-3. Chat Conversation Participants \[33166]
-4. Chat Conversation Participant Count \[33176]
-5. Chat Conversation Attached Patient \[33167]
-6. Chat Conversation Message Count \[33175]
-7. Chat Conversation Attached Patient EPTID \[105191]
-8. TLK 3000 \[100706]
-9. TLK 3105 \[100744]
-10. TLK 3100 \[100708]
-11. TLK 3110 \[100712]
-12. TLK 4000 \[100713]
-13. TLK 4010 \[100714]
-14. TLK 2100 \[100729]
-15. TLK 3500 \[100755]
-16. Reaction Sender TLK 3503 \[100799]
-17. Reaction Instant \[100801]
+```markup
+| Pasted Label           | UI Field Name                                      |
+|------------------------|-----------------------------------------------------|
+| msg_id                | Chat Conversation ID [33165]                       |
+| msg_contact_id        | CSN for TLK [105191]  |
+| pt_id                 | HashedMRN [100636]                                |
+| msg_users             | Chat Conversation Participants [33166]             |
+| msg_users_count       | Chat Conversation Participant Count [33176]        |
+| msg_log_count         | Chat Conversation Message Count [33175]            |
+| msg_log_team          | tlk 2100 [100714]                                  |
+| msg_log_txt           | tlk 3000 [100706]                                  |
+| msg_log_send_time     | tlk 3100 [100708]                                  |
+| msg_log_type          | tlk 3105 [100799]                                  |
+| msg_log_send_user     | tlk 3110 [100711]                                  |
+| access_user           | tlk 4000 [100712]                                  |
+| access_time           | tlk 4010 [100713]                                  |
+| access_msg_log_line   | tlk 4020 [100744]                                  |
+| reaction_msg_log_line | tlk 3500 [100729]                                  |
+| reaction_user         | tlk 3502 [100755]                                  |
+| reaction_time         | tlk 3503 [100741]                                  |
+```
 
+*
