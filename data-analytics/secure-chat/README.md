@@ -67,7 +67,10 @@ Hyperlink: EpicAct:AC\_RW\_STATUS,RunParams:101171|3713451
 | access_msg_log_line   | tlk 4020 [100744]                                  |
 | reaction_msg_log_line | tlk 3500 [100729]                                  |
 | reaction_user         | tlk 3502 [100755]                                  |
-| reaction_time         | tlk 3503 [100741]                                  |
+| reaction_time         | tlk 3503 [100741] 
+| msg_log_users         | tlk 2100
+| msg_log_users_unread  | tlk 2060
+| msg_log_users_affect  | tlk 3200
 ```
 
 *
