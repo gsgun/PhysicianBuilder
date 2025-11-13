@@ -5,14 +5,17 @@ description: HF10 Sim Code. Row Type Custom Formula Value Type Numeric Context O
 # FLO 15881 HF10SIM
 
 ```
-// M:x
+M:x
 p={15853;;0}
 a=patID
 b=patDAT
-htn=+$$evalRule^elibHULIB22(835299,a,b)
+h1=+$$evalRule^elibHULIB22(835299,a,b)
 gf={15855;;0}
 age=+$$zCalcAge^%Zefnlii(+$h,$$getn^elibEAnLIB(""EPT"",a,1,""100;1""))
-sb=+$$getMessage^S2LPP3(835298,,0,a,b)
+sbc=$$sumMultSelect^JCUSTFORM1({15848;;0})
+sbb=+$$getMessage^S2LPP3(835298,,0,a,b)
+sb=$s(sbc>0:110,1:sbb)
+htn=$s(sbc>0:0,1:h1)
 hx1=+$$getMessage^S2LPP3(835306,,0,a,b)
 hx1=$s(hx1=1:0,1:1)
 hxc={15832;;3}
