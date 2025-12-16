@@ -9,3 +9,7 @@ OPA ED HF fires based on location and not based on class&#x20;
 * Submit Ticket
 
 Ticket # 3112568
+
+
+
+Completed and fixed. Added User Property to Restrict
