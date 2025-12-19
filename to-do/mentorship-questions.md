@@ -56,3 +56,6 @@ AMIA
 HIM
 
 * Need to look into
+
+Sticky Note Tip Text
+EPT-INP-Item 200000. Text present looks weird
