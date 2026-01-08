@@ -124,6 +124,7 @@
 
 ## StandardNotes
 
+* [Tip Texts](standardnotes/tip-texts.md)
 * [ETX 24815 PHICUSTDTEST](standardnotes/secure-chat.md)
 * [ETX 24754 PHIPHOSPSTANDARDTEST](standardnotes/secure-chat-1.md)
 
