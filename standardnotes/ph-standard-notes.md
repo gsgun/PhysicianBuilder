@@ -6,7 +6,7 @@ description: Documentation Build Guide
 
 Updated to Sectioning Smartlinks and Modular Build
 
-```mmd
+<pre>
 graph TD
     A["@PHIPNOTEHEADERHPBASE@"] --> B["@PHAPBEGIN@"]
     B --> C["@CERMSGREFRESH(89901:21282,,,1)@"]
@@ -23,4 +23,4 @@ graph TD
     M --> N["@PEDSADVANCED@"]
     N --> O["{Chaperone documentation (Optional):25932}"]
     O --> P["@CERMSGREFRESH(89901:22267,,,1)@"]
-```
+<pre>
