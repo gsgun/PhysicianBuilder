@@ -124,7 +124,9 @@
 
 ## StandardNotes
 
-* [PH Standard Notes](standardnotes/ph-standard-notes.md)
+* [🩺 PH Standard Notes](standardnotes/ph-standard-notes/README.md)
+  * [H\&P](standardnotes/ph-standard-notes/h-and-p.md)
+  * [Copy of H\&P](standardnotes/ph-standard-notes/copy-of-h-and-p.md)
 * [Tip Texts](standardnotes/tip-texts.md)
 * [ETX 24815 PHICUSTDTEST](standardnotes/secure-chat.md)
 * [ETX 24754 PHIPHOSPSTANDARDTEST](standardnotes/secure-chat-1.md)

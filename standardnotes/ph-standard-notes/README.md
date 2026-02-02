@@ -1,8 +1,8 @@
 ---
-description: Documentation Build Guide - PH Standard H&P
+description: Documentation Build Guide - Example H&P
 ---
 
-# 🩺 PH Standard Notes: Modular Build Guide
+# 🩺 PH Standard Notes
 
 ```mermaid
 graph TD
@@ -57,3 +57,4 @@ graph TD
     class S1,S2,S3 section
     class A_Code,B_Code,C_Code,D_Code,E_Code,F_Code codeNode
     class A_Ex,B_Ex,C_Ex,D_Ex,E_Ex,F_Ex exampleNode
+```
