@@ -1,0 +1,21 @@
+---
+description: HHS PHIPNOTECSAP [100999] to ETX PHIPNOTECSAP [22245]
+---
+
+# PHIPNOTECSAP
+
+ETX:&#x20;
+
+@PHDISPOBEGIN@\
+@CERMSGREFRESH(833874:23093,,,1)@\
+Code status: @RRCODESTATUS@
+
+@PHBILLCODINGINITIALTIP@
+
+
+
+Override:
+
+If Critical = PHIPNOTECSAPCRTICALCARE \[23033]
+
+&#x20;                           &#x20;
