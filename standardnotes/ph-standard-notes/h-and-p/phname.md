@@ -14,8 +14,4 @@ Override:
 
 If Hospice = PHIPNOTEHPOPHOSPICEPOC1 \[24899]
 
-The patient class will be: GIP Code status: @RRCODESTATUS@
-
-1. Problem-focused:
-
 &#x20;                           &#x20;
