@@ -1,0 +1,11 @@
+---
+description: ETX 22361
+---
+
+# PHIPNOTEHEADERCRITICALCARE
+
+ETX:
+
+&#x20;                                  CRITICAL CARE PROGRESS NOTE\
+@CERMSGREFRESH(831923:22406,,,1)@\
+@CERMSG(836408:24604,,,1)@
