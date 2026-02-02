@@ -1,0 +1,20 @@
+---
+description: HHS PHDIAG [101406] to ETX PHDIAG [25024]
+---
+
+# PHDIAG
+
+ETX:&#x20;
+
+@PHPROBLISTBEGIN@\
+@PHPROBLISTTEXT@@PHPROBLISTCSTEXT@@PHPROBLISTHPTEXT@\*\*\*
+
+
+
+Override:
+
+If Hospice,Pedes = PHDIAGPOC \[25030]
+
+If Cardio = PHDIAGCARD \[25027]
+
+If Hospitalist or Critical Care = PHDIAGHM \[25046]

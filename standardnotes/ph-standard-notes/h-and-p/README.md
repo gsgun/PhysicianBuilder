@@ -2,7 +2,7 @@
 description: Framework for both POC and Standaard
 ---
 
-# Copy of H\&P
+# H\&P
 
 Smartlink to ETX
 
@@ -10,8 +10,33 @@ Smartlink to ETX
 * PHNAME
 * PHDIAG
 * PHIPNOTEHPAP
+* PHIPNOTEHPI2
+* PHIPNOTEHISTORY2
+* PHIPNOTESVITALSHP2
 
 
+
+Smartlink Sections
+
+* PHAPBEGIN
+* PHHIPBEGIN
+* PHOBJBEGIN
+
+
+
+Smartlink\SmartBlocks
+
+* PEDSADVANCED
+* PHDIAGPOC
+
+
+
+TIP Texts
+
+* ETX 21282
+* ETX 21693
+* ETX 21411
+* ETX 22267
 
 
 
@@ -20,7 +45,7 @@ Smartlink to ETX
 @PHAPBEGIN@ 
 @CERMSGREFRESH(89901:21282,,,1)@
 @PHNAME@
-@PHDIAG@
+@PHDIAG@ //@PHDIAGPOC@ = Diagnosis Aware Notes
 @PHIPNOTEHPAP@
 
 @PHHPIBEGIN@

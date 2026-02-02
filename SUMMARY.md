@@ -124,9 +124,17 @@
 
 ## StandardNotes
 
-* [🩺 PH Standard Notes](standardnotes/ph-standard-notes/README.md)
-  * [H\&P](standardnotes/ph-standard-notes/h-and-p.md)
-  * [Copy of H\&P](standardnotes/ph-standard-notes/copy-of-h-and-p.md)
+* [🩺 PH Standard Notes](standardnotes/ph-standard-notes.md)
+  * [H\&P](standardnotes/ph-standard-notes/h-and-p/README.md)
+    * [PHIPNOTEHEADERHPBASE](standardnotes/ph-standard-notes/h-and-p/phipnoteheaderhpbase.md)
+    * [PHNAME](standardnotes/ph-standard-notes/h-and-p/phname.md)
+    * [PHDIAG](standardnotes/ph-standard-notes/h-and-p/phdiag/README.md)
+      * [PHDIAGPOC](standardnotes/ph-standard-notes/h-and-p/phdiag/phdiagpoc.md)
+      * [PHDIAGHM](standardnotes/ph-standard-notes/h-and-p/phdiag/phdiaghm.md)
+      * [PHDIAGCARD](standardnotes/ph-standard-notes/h-and-p/phdiag/phdiagcard.md)
+  * [Consult](standardnotes/ph-standard-notes/consult.md)
+  * [Progress Note](standardnotes/ph-standard-notes/progress-note.md)
+  * [Discharge Summary](standardnotes/ph-standard-notes/discharge-summary.md)
 * [Tip Texts](standardnotes/tip-texts.md)
 * [ETX 24815 PHICUSTDTEST](standardnotes/secure-chat.md)
 * [ETX 24754 PHIPHOSPSTANDARDTEST](standardnotes/secure-chat-1.md)
