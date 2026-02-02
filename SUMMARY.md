@@ -161,6 +161,7 @@
       * [\*\*PHIPNOTEHPAPNBPOC](standardnotes/ph-standard-notes/progress-note/phipnoteapbase/phipnotehpapnbpoc.md)
     * [PHIPNOTECC](standardnotes/ph-standard-notes/progress-note/phipnotecc.md)
     * [PHIPNOTEVITALS](standardnotes/ph-standard-notes/progress-note/phipnotevitals.md)
+    * [Top Level Hospice Override](standardnotes/ph-standard-notes/progress-note/top-level-hospice-override.md)
   * [Discharge Summary](standardnotes/ph-standard-notes/discharge-summary.md)
 * [Tip Texts](standardnotes/tip-texts.md)
 * [ETX 24815 PHICUSTDTEST](standardnotes/secure-chat.md)
