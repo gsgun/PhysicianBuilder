@@ -1,6 +1,10 @@
 ---
-description: ETX 25027
+description: ETX 25027 - May need to fix
 ---
 
-# PHDIAGCARD
+# \*\*PHDIAGCARD
 
+ETX:
+
+@PHACTIVEISSUESCARDIOBEGIN@\
+@PHACTIVEISSUESCARDIOTEXT@\*\*\*
