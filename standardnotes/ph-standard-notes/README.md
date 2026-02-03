@@ -2,11 +2,13 @@
 
 Welcome to the Documentation Build Guide. Use the links below to navigate through the standard note structures:
 
-* [**General Build Design**](./general-build-design.md) – Overarching principles for note construction.
-* [**H&P (History & Physical)**](./h-and-p/) – Initial admission and comprehensive assessment templates.
-* [**Consult**](./consult/) – Specialist-specific evaluation and recommendation notes.
-* [**Progress Note**](./progress-note/) – Daily rounding and interval updates.
-* [**Discharge Summary**](./discharge-summary/) – Hospital course transitions and follow-up planning.
+* [**General Build Design**](general-build-design.md) – Overarching principles for note construction.
+* [**Deployment\Issues**](deployment.md)
+* [**Bugs\Burn\ToDo**](bugs-to-do.md)
+* [**H\&P (History & Physical)**](h-and-p/) – Initial admission
+* [**Consult**](consult/) – Consultation by Service
+* [**Progress Note**](progress-note/) – Daily rounding and interval updates.
+* [**Discharge Summary**](discharge-summary/) – Hospital course transitions and follow-up planning.
 
 ```mermaid
 graph TD

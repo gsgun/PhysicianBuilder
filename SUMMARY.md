@@ -126,6 +126,8 @@
 
 * [🩺 PH Standard Notes](standardnotes/ph-standard-notes/README.md)
   * [General Build Design](standardnotes/ph-standard-notes/general-build-design.md)
+  * [Deployment](standardnotes/ph-standard-notes/deployment.md)
+  * [Bugs\To Do](standardnotes/ph-standard-notes/bugs-to-do.md)
   * [H\&P](standardnotes/ph-standard-notes/h-and-p/README.md)
     * [PHIPNOTEHEADERHPBASE](standardnotes/ph-standard-notes/h-and-p/phipnoteheaderhpbase.md)
     * [PHNAME](standardnotes/ph-standard-notes/h-and-p/phname/README.md)
