@@ -1,0 +1,13 @@
+---
+description: ETX 22628
+---
+
+# PHIPNOTEAPCARDIO
+
+ETX:
+
+@PHDISPOBEGIN@\
+@CERMSG(832677:22669,,,1)@@CERMSG(833009:22739,,,1)@\
+Cardiac Care Need: {Card Care Need:25823}
+
+@PHBILLCODINGSUBTIP@

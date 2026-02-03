@@ -1,0 +1,17 @@
+---
+description: HHS PHIPNOTEDCAP [100978] to ETX PHIPNOTEDCAP [22196]
+---
+
+# PHIPNOTEDCAP
+
+ETX:
+
+@PHDCHOSPITALCOURSE@\
+@PHDIAG@\
+@PHIPSTANDARDNOTEACTIVEISSUESEND@
+
+Overrides
+
+If Pedes = PHIPNOTEHEADERCRITICALCARE \[22361]
+
+&#x20;                                            &#x20;
