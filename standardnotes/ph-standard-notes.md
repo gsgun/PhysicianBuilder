@@ -4,6 +4,26 @@ description: Documentation Build Guide - Example H&P
 
 # 🩺 PH Standard Notes
 
+{% content-ref url="ph-standard-notes/general-build-design.md" %}
+[general-build-design.md](ph-standard-notes/general-build-design.md)
+{% endcontent-ref %}
+
+{% content-ref url="ph-standard-notes/h-and-p/" %}
+[h-and-p](ph-standard-notes/h-and-p/)
+{% endcontent-ref %}
+
+{% content-ref url="ph-standard-notes/consult/" %}
+[consult](ph-standard-notes/consult/)
+{% endcontent-ref %}
+
+{% content-ref url="ph-standard-notes/progress-note/" %}
+[progress-note](ph-standard-notes/progress-note/)
+{% endcontent-ref %}
+
+{% content-ref url="ph-standard-notes/discharge-summary/" %}
+[discharge-summary](ph-standard-notes/discharge-summary/)
+{% endcontent-ref %}
+
 ```mermaid
 graph TD
     %% Global Styling
