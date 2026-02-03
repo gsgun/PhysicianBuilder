@@ -4,25 +4,13 @@ description: Documentation Build Guide - Example H&P
 
 # 🩺 PH Standard Notes
 
-{% content-ref url="ph-standard-notes/general-build-design.md" %}
-[general-build-design.md](ph-standard-notes/general-build-design.md)
-{% endcontent-ref %}
+Welcome to the Documentation Build Guide. Use the links below to navigate through the standard note structures:
 
-{% content-ref url="ph-standard-notes/h-and-p/" %}
-[h-and-p](ph-standard-notes/h-and-p/)
-{% endcontent-ref %}
-
-{% content-ref url="ph-standard-notes/consult/" %}
-[consult](ph-standard-notes/consult/)
-{% endcontent-ref %}
-
-{% content-ref url="ph-standard-notes/progress-note/" %}
-[progress-note](ph-standard-notes/progress-note/)
-{% endcontent-ref %}
-
-{% content-ref url="ph-standard-notes/discharge-summary/" %}
-[discharge-summary](ph-standard-notes/discharge-summary/)
-{% endcontent-ref %}
+* [**General Build Design**](ph-standard-notes/general-build-design.md) – Overarching principles for note construction.
+* [**H&P (History & Physical)**](ph-standard-notes/h-and-p/) – Initial admission and comprehensive assessment templates.
+* [**Consult**](ph-standard-notes/consult/) – Specialist-specific evaluation and recommendation notes.
+* [**Progress Note**](ph-standard-notes/progress-note/) – Daily rounding and interval updates.
+* [**Discharge Summary**](ph-standard-notes/discharge-summary/) – Hospital course transitions and follow-up planning.
 
 ```mermaid
 graph TD
