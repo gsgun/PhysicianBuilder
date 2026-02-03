@@ -7,7 +7,7 @@ description: Framework for both POC and Standaard
 Smartlink to ETX
 
 * [PHIPNOTECONSULTHEADER](phipnoteconsultheader.md)
-* [PHNAME](../h-and-p/phname.md)
+* [PHNAME](../h-and-p/phname/)
 * [PHDIAG](../h-and-p/phdiag/)
 * [PHIPNOTECSAP](phipnotecsap/)
 * [PHIPNOTEHPI2](../h-and-p/phipnotehpi2.md)

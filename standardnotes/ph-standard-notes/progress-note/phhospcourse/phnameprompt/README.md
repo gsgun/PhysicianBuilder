@@ -6,7 +6,7 @@ description: HHS PHNAMEPROMPT [101417] to ETX PHNAMEFALSE [24816]
 
 ETX:
 
-@[PHNAME](../../../h-and-p/phname.md)@
+@[PHNAME](../../../h-and-p/phname/)@
 
 
 

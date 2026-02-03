@@ -12,6 +12,6 @@ This is a @AGE@ @GENDERIDENTITY@ patient \*\*\*
 
 Override:
 
-If Hospice = PHIPNOTEHPOPHOSPICEPOC1 \[24899]
+If Hospice = [PHIPNOTEHPOPHOSPICEPOC1 ](phipnotehpophospicepoc1.md)\[24899]
 
 &#x20;                           &#x20;
