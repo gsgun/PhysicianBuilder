@@ -13,8 +13,8 @@ ETX:&#x20;
 
 Override:
 
-If Hospice,Pedes = PHDIAGPOC \[25030]
+If Hospice,Pedes = [PHDIAGPOC ](phdiagpoc.md)\[25030]
 
-If Cardio = PHDIAGCARD \[25027]
+If Cardio = [PHDIAGCARD ](phdiagcard.md)\[25027]
 
-If Hospitalist or Critical Care = PHDIAGHM \[25046]
+If Hospitalist or Critical Care = [PHDIAGHM ](phdiaghm.md)\[25046]

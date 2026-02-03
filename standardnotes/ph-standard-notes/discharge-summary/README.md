@@ -6,12 +6,12 @@ description: Framework for both POC and Standaard
 
 Smartlink to ETX
 
-* PHIPNOTEDCNOTEHEADER
-* PHIPNOTEDCFOLLOWUP2
-* PHIPNOTEDCAP
-* PHIPNOTEDCAPPOC
-* PHIPNOTEDCTIMESPENT2
-* PHIPDCTCM
+* [PHIPNOTEDCNOTEHEADER](phipnotedcnoteheader.md)
+* [PHIPNOTEDCFOLLOWUP2](phipnotedcfollowup2.md)
+* [PHIPNOTEDCAP](phipnotedcap.md)
+* [PHIPNOTEDCAPPOC](phipnotedcappoc.md)
+* [PHIPNOTEDCTIMESPENT2](phipnotedctimespent2.md)
+* [PHIPDCTCM](phipdctcm.md)
 
 
 

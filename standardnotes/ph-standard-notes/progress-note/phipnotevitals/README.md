@@ -2,7 +2,7 @@
 description: HHS PHIPNOTEVITALS [100717] to ETX PHIPNOTEVITALS [21130]
 ---
 
-# PHIPNOTEVITALS
+# \*\*\*PHIPNOTEVITALS
 
 ETX:
 
@@ -19,8 +19,8 @@ Wt: @LAST24HRWODATE(14)@ @FLOW(11)@ BMI:@BMI@\
 
 Override
 
-If Cardiology   = PHIPNOTEVITALSCARDIO \[22736]
+If Cardiology   = [PHIPNOTEVITALSCARDIO ](phipnotevitalscardio.md)\[22736]
 
-If Surgery        = PHIPNOTEVITALSSURG \[24762]
+If Surgery        = [PHIPNOTEVITALSSURG ](phipnotevitalssurg.md)\[24762]
 
-If Critical Care = PHIPNOTEVITALSCRITICALCARE \[20766]
+If Critical Care = [PHIPNOTEVITALSCRITICALCARE ](../../h-and-p/phipnotevitalshp2/phipnotevitalscriticalcare.md)\[20766]

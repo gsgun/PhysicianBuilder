@@ -13,14 +13,14 @@ ETX:&#x20;
 
 Override:
 
-If Hospitalist = PHIPNOTEAPHOSPITALIST \[22714]
+If Hospitalist = [PHIPNOTEAPHOSPITALIST ](phipnoteaphospitalist.md)\[22714]
 
-If Cardiology = PHIPNOTEAPCARDIO \[22628]
+If Cardiology = [PHIPNOTEAPCARDIO ](phipnoteapcardio.md)\[22628]
 
-If CriticalCare = PHIPNOTEAPCRITICALCARE \[21125]
+If CriticalCare = [PHIPNOTEAPCRITICALCARE ](phipnoteapcriticalcare.md)\[21125]
 
-If Nephrology = PHIPNOTEAPNEPH \[22972]
+If Nephrology = [PHIPNOTEAPNEPH ](phipnoteapneph.md)\[22972]
 
-If Hospice = PHIPNOTEAPHOSPICE \[24025]
+If Hospice = [PHIPNOTEAPHOSPICE ](phipnoteaphospice.md)\[24025]
 
 &#x20;                           &#x20;

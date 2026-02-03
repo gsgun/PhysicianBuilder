@@ -16,6 +16,6 @@ Code status: @RRCODESTATUS@
 
 Override:
 
-If Critical = PHIPNOTECSAPCRTICALCARE \[23033]
+If Critical = [PHIPNOTECSAPCRTICALCARE ](phipnotecsapcrticalcare.md)\[23033]
 
 &#x20;                           &#x20;

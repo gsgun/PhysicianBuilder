@@ -10,9 +10,9 @@ ETX:
 
 Overrides
 
-If Critical Care = PHIPNOTEHEADERCRITICALCARE \[22361]
+If Critical Care = [PHIPNOTEHEADERCRITICALCARE ](phipnoteheaderbase/phipnoteheadercriticalcare.md)\[22361]
 
-If Hospitalist     = PHIPNOTEHEADERHOSPITALIST \[22718]
+If Hospitalist     = [PHIPNOTEHEADERHOSPITALIST ](phipnoteheaderbase/phipnoteheaderhospitalist.md)\[22718]
 
 
 

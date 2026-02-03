@@ -15,8 +15,8 @@ Wt: @LAST24HRWODATE(14)@ Ht: @FLOW(11)@ BMI:@BMI@
 
 Override:
 
-If Critical   = PHIPNOTEVITALSCRITICALCARE \[20766]
+If Critical   = [PHIPNOTEVITALSCRITICALCARE ](phipnotevitalscriticalcare.md)\[20766]
 
-If Pedes\NB= PHIPNOTEVITALSNB\[24659]
+If Pedes\NB= [PHIPNOTEVITALSNB](phipnotevitalsnb.md)\[24659]
 
 &#x20;                           &#x20;

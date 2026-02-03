@@ -12,8 +12,8 @@ Default is Blank
 
 Override:
 
-If Hospice = PHIPNOTEHPOPHOSPICEPOC1 \[24899]
+If Hospice = [PHIPNOTEHPOPHOSPICEPOC1 ](phdiagcard.md)\[24899]
 
-If Hospitalist = PHIPAPHOSPITALCOURSE \[24900]
+If Hospitalist = [PHIPAPHOSPITALCOURSE ](phdiaghm.md)\[24900]
 
-If Hospitalist = PHIPNOTEAPCRITICALCAREHOSPITALCOURSE \[24901]
+If Hospitalist = [PHIPNOTEAPCRITICALCAREHOSPITALCOURSE ](phdiagpoc.md)\[24901]

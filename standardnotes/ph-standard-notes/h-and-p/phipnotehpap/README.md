@@ -16,12 +16,12 @@ Code status: @RRCODESTATUS@
 
 Override:
 
-If Hospice = PHIPNOTEHPAPHOSPICEPOC1\[24023]
+If Hospice = [PHIPNOTEHPAPHOSPICEPOC1](phipnotehpaphospicepoc1.md)\[24023]
 
-If Critical   = PHIPNOTEHPAPCRITCARE \[23044]
+If Critical   = [PHIPNOTEHPAPCRITCARE ](../../progress-note/phipnoteapbase/phipnoteapcriticalcare.md)\[23044]
 
-If Hospital = PHIPNOTEHPAPHOSPITALIST \[23532]
+If Hospital = [PHIPNOTEHPAPHOSPITALIST ](../../progress-note/phipnoteapbase/phipnoteaphospitalist.md)\[23532]
 
-If Pedes\NB= PHIPNOTEHPAPNBPOC \[24650]
+If Pedes\NB= [PHIPNOTEHPAPNBPOC ](phipnotehpapnbpoc.md)\[24650]
 
 &#x20;                           &#x20;

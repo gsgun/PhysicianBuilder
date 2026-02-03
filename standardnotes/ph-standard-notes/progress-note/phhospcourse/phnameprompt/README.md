@@ -6,7 +6,7 @@ description: HHS PHNAMEPROMPT [101417] to ETX PHNAMEFALSE [24816]
 
 ETX:
 
-@PHNAME@
+@[PHNAME](../../../h-and-p/phname.md)@
 
 
 
@@ -21,7 +21,7 @@ PH IP PATIENT PROMPT \[PHORDERS#002]
 
 Override
 
-If IP Hospital Course Name SDE True \[836752] = PHNAMETRUE \[25036]
+If IP Hospital Course Name SDE True \[836752] = [PHNAMETRUE ](phnametrue.md)\[25036]
 
 Rule criteria:
 

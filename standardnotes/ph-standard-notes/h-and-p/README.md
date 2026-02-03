@@ -6,13 +6,13 @@ description: Framework for both POC and Standaard
 
 Smartlink to ETX
 
-* PHIPNOTEHEADERHPBASE
-* PHNAME
-* PHDIAG
-* PHIPNOTEHPAP
-* PHIPNOTEHPI2
-* PHIPNOTEHISTORY2
-* PHIPNOTEVITALSHP2
+* [PHIPNOTEHEADERHPBASE](phipnoteheaderhpbase.md)
+* [PHNAME](phname.md)
+* [PHDIAG](phdiag/)
+* [PHIPNOTEHPAP](phipnotehpap/)
+* [PHIPNOTEHPI2](phipnotehpi2.md)
+* [PHIPNOTEHISTORY2](phipnotehistory2.md)
+* [PHIPNOTEVITALSHP2](phipnotevitalshp2/)
 
 
 

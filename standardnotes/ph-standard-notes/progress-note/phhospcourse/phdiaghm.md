@@ -7,4 +7,4 @@ description: ETX 24900
 ETX:
 
 @PHHOSPITALCOURSEBEGIN@\
-@PHNAMEPROMPT@
+@[PHNAMEPROMPT](phnameprompt/)@

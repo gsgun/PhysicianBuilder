@@ -7,7 +7,7 @@ description: HHS PHDCHOSPITALCOURSE [101412] to PHIPAPHOSPITALCOURSE [24900]
 ETX:
 
 @PHHOSPITALCOURSEBEGIN@\
-@PHNAMEPROMPT@
+@[PHNAMEPROMPT](../progress-note/phhospcourse/phnameprompt/)@
 
 
 
