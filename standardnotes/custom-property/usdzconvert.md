@@ -8,9 +8,7 @@ description: 'Reference:'
 
 Step 1: Create one rule with the output that we want to change the case
 
-*
-
-    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Step 2: Create Custom Property under the Same Context
 
