@@ -4,7 +4,7 @@ Welcome to the Documentation Build Guide. Use the links below to navigate throug
 
 * [**General Build Design**](general-build-design.md) – Overarching principles for note construction.
 * [**Deployment\Issues**](deployment.md)
-* [**Bugs\Burn\ToDo**](bugs-to-do.md)
+* [**Bugs\Burn\ToDo**](bugs-to-do/)
 * [**H\&P (History & Physical)**](h-and-p/) – Initial admission
 * [**Consult**](consult/) – Consultation by Service
 * [**Progress Note**](progress-note/) – Daily rounding and interval updates.
