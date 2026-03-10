@@ -185,6 +185,7 @@
 * [Tip Texts](standardnotes/tip-texts.md)
 * [Custom Property](standardnotes/custom-property/README.md)
   * [$ZCONVERT](standardnotes/custom-property/usdzconvert.md)
+  * [HHS CASECONVERT](standardnotes/custom-property/hhs-caseconvert.md)
 
 ## To Do
 

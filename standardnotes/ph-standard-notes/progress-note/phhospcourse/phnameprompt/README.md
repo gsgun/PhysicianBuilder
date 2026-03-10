@@ -26,3 +26,11 @@ If IP Hospital Course Name SDE True \[836752] = [PHNAMETRUE ](phnametrue.md)\[25
 Rule criteria:
 
 1. Patient » Note SmartData Value By Note Type a = 1 a Note Types = Progress Notes \[1]; SmartData Element = PHORDERS#002; Search Admission? = Yes \[1] Error message: Patient » Note SmartData Value By Note Type
+
+
+
+Bug Fix:
+
+Logic should be the SDE is True under the following settings:
+
+* SDE is Present and Note Author is the same as current author
