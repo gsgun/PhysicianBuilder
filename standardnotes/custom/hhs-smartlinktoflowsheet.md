@@ -13,41 +13,28 @@ Charge Triggering via HHS
 Parameters input:\
 ValueID for Charge
 
-1
+1 Prolonged Services
 
-2
+2 Critical Care
 
-3
+3 Office Outpatient
 
-4
+4 1st Hospital
 
-5
-
-6
-
-7
-
-8
-
-
-
-
+5 Prolonged Services
 
 
 
 {% code overflow="wrap" %}
 ```
-s inst=$$time^%Zelibb(),val=params,floID=6081,fltID=624,empID=$$getidout^elibEALIB1($$zgUserID^elibEALIBG(),"EMP") d SetFloValAry^JFSAPI3(.floValAry,patID,patDAT,fltID,floID,"",$$time^%Zelibb(),empID,val) d storeSetup^JVITAL20(patID,patDAT,fltID,0,"","",.floValAry) s V(0)=1,V(1)="Success"
+s inst=$$time^%Zelibb(),val=params,floID=6081,fltID=624,empID=$$getidout^elibEALIB1($$zgUserID^elibEALIBG(),"EMP") d SetFloValAry^JFSAPI3(.floValAry,patID,patDAT,fltID,floID,"",inst+(val*5),empID,val) d storeSetup^JVITAL20(patID,patDAT,fltID,0,"","",.floValAry) s V(0)=1,V(1)=inpID_" x "_inst_" "_val
 ```
 {% endcode %}
 
-{% code overflow="wrap" %}
-```
-```
-{% endcode %}
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
