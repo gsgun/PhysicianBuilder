@@ -185,9 +185,10 @@
     * [PHIPDCTCM](standardnotes/ph-standard-notes/discharge-summary/phipdctcm.md)
     * [\*\*\*Top Level Hospice Override](standardnotes/ph-standard-notes/discharge-summary/top-level-hospice-override.md)
 * [Tip Texts](standardnotes/tip-texts.md)
-* [Custom Property](standardnotes/custom-property/README.md)
-  * [$ZCONVERT](standardnotes/custom-property/usdzconvert.md)
-  * [HHS CASECONVERT](standardnotes/custom-property/hhs-caseconvert.md)
+* [Custom](standardnotes/custom/README.md)
+  * [$ZCONVERT](standardnotes/custom/usdzconvert.md)
+  * [HHS CASECONVERT](standardnotes/custom/hhs-caseconvert.md)
+  * [HHS SmartlinkToFlowsheet](standardnotes/custom/hhs-smartlinktoflowsheet.md)
 
 ## To Do
 
