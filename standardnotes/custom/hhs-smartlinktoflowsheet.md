@@ -31,6 +31,12 @@ s inst=$$time^%Zelibb(),val=params,floID=6081,fltID=624,empID=$$getidout^elibEAL
 ```
 {% endcode %}
 
+{% code overflow="wrap" %}
+```
+s inst=$$time^%Zelibb(),val=$p(params,",",1),floID=$p(params,",",2),fltID=$p(params,",",3) ,empID=$$getidout^elibEALIB1($$zgUserID^elibEALIBG(),"EMP") d SetFloValAry^JFSAPI3(.floValAry,patID,patDAT,fltID,floID,"",inst-(val*5),empID,val) d storeSetup^JVITAL20(patID,patDAT,fltID,0,"","",.floValAry) s V(0)=1,V(1)=""
+```
+{% endcode %}
+
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
