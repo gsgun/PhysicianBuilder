@@ -197,3 +197,4 @@
 * [Hospital Course Gold Star](to-do/hospital-course-gold-star.md)
 * [Mentorship Questions](to-do/mentorship-questions.md)
 * [Discharge Navigator for ED WE rule](to-do/discharge-navigator-for-ed-we-rule.md)
+* [Palliative Care](to-do/palliative-care.md)
