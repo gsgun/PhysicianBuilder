@@ -198,3 +198,4 @@
 * [Mentorship Questions](to-do/mentorship-questions.md)
 * [Discharge Navigator for ED WE rule](to-do/discharge-navigator-for-ed-we-rule.md)
 * [Palliative Care](to-do/palliative-care.md)
+* [Medical Readiness for Discharge](to-do/medical-readiness-for-discharge.md)

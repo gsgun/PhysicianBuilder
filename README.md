@@ -8,13 +8,13 @@ MIT License. Open Source.&#x20;
 
 Completed:
 
-* [ASCVD CVD 2024 Risk Calculators](/broken/pages/I3vrPWhsqhNlUE0ghE27)
-* [Gupta NSQIP Risk Calculators](/broken/pages/OhQYDokgPp1BHP1JcgXO)
+* [ASCVD CVD 2024 Risk Calculators](https://app.gitbook.com/s/6Caf1JA5ufQharGpTSxg/predicting-cvd-risk-events)
+* [Gupta NSQIP Risk Calculators](https://app.gitbook.com/s/6Caf1JA5ufQharGpTSxg/gupta-surgery-risk-scores)
 * GRACE InHospital 6 month Risk Calculators
-* [Admission Med Rec Tip Text](/broken/pages/RBjnLZhGjtWudeYVqfev)
-* [CathPCI Risk Calculators](/broken/pages/Zza87i5lCRfn1NXVl1K6)
+* [Admission Med Rec Tip Text](https://app.gitbook.com/s/6Caf1JA5ufQharGpTSxg/admission-med-rec-tip-text)
+* [CathPCI Risk Calculators](https://app.gitbook.com/s/6Caf1JA5ufQharGpTSxg/cath-pci-gdmt)
 * Sepsis QI Hospitalist
-* [Standand Notes](/broken/pages/AH2W4enuheBhtF0oIemK)
+* [Standand Notes](https://app.gitbook.com/s/6Caf1JA5ufQharGpTSxg/standardnotes)
 
 
 
@@ -22,6 +22,6 @@ In Progress:
 
 * Cardiac PCI Quality Metric
 * Hospitalist Quality Metric Update
-* [Secure Chat Templates Pharmacy](/broken/pages/Dh1VZUCGBJcO9dw8O3nM)
+* [Secure Chat Templates Pharmacy](https://app.gitbook.com/s/6Caf1JA5ufQharGpTSxg/data-analytics)
 * ED Scoring Tools Rule Updates
 
