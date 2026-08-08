@@ -1,0 +1,17 @@
+Based on answers in Communicable Diseases assessment this patient requires Contact Isolation. Please use the referral order, as well, if follow-up by Infection Prevention is needed. Don appropriate PPE per policy.
+
+Rule Editor - Context: Patient OurPractice Advisory [17001] - Rule: PH Bugsy Comm Disease ISO - Contact [1910000026]
+
+Rule criteria:
+1. Patient » Last Flowsheet Value (String) a = Wound or abscess with uncontained drainage (excessive persistent drainage)
+a Flowsheet Row = PH IP R PATIENT PRESENTS/COMPLAINS OF THE FOLLOWING SYMPTOMS [3040150318]; Data Type = String [5]
+2. Patient » Last Flowsheet Value (String) a = Visualized s/s infestation (lice, scabies, bed bugs)
+a Flowsheet Row = PH IP R PATIENT PRESENTS/COMPLAINS OF THE FOLLOWING SYMPTOMS [3040150318]; Data Type = String [5]
+3. Patient » Last Flowsheet Value (String) a = Rash with fever 38.0 C or above
+a Flowsheet Row = PH IP R PATIENT PRESENTS/COMPLAINS OF THE FOLLOWING SYMPTOMS [3040150318]; Data Type = String [5]
+4. Patient » Last Flowsheet Value (String) a = Yes
+a Flowsheet Row = PH R ED C. AURIS [15520]; Data Type = String [5]
+5. Patient » Last Flowsheet Value (String) a = Yes
+a Flowsheet Row = R PH IP TRAVEL HX - HAS PATIENT HAD AN OVERNIGHT STAY IN A HOSPITAL OUTISDE OF THE US IN THE PAST 12 MONTHS? [3040150324]; Data Type = String [5]
+6. Patient » Last Flowsheet Value (String) a = Yes
+a Flowsheet Row = PH IP R TRAVEL HX - HAS PT HAD OVERNIGHT IN LTACH/SNF IN PAST 12 MONTHS [15518]; Data Type = String [5]
