@@ -4,4 +4,3 @@
 - **Population / triggers:**
 - **Technical bounds:** (Epic modules, FLO/CER/ETX ids, order sets)
 - **Definition of Done:**
-- **Zero-PHI check:** all test data synthetic — CONFIRMED [ ]

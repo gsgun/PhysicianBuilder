@@ -19,7 +19,7 @@ description: Template for formal build specs
 
 ## 3. Design
 
-(Rule evaluation tree, trigger events — event-driven vs time-driven, criteria tokens, FLO/ETX/CER artifacts, property trees. All examples use synthetic data: `MRN 999000123`, `TEST-DOE, JOHN`, `Encounter Day 2`.)
+(Rule evaluation tree, trigger events — event-driven vs time-driven, criteria tokens, FLO/ETX/CER artifacts, property trees.)
 
 ## 4. Validation Plan
 

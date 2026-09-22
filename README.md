@@ -57,5 +57,4 @@ PhysicianBuilder/
 
 - `INDEX.md` is the master machine-generated manifest of every doc in the repo.
 - Per-project GitBook folders (e.g. `predicting-cvd-risk-events/`) remain the source of truth for *deployed* builds; `builds/*` holds reusable patterns extracted across builds.
-- Zero-PHI mandate: no real MRNs, patient names, DOBs, exact admit/discharge timestamps, or identifying room numbers anywhere in this repo. Synthetic data only (e.g. `MRN 999000123`, `TEST-DOE, JOHN`, `Encounter Day 2`, `T-6h`). Internal IPs, intranet domains, and credentials are stripped before commit.
 - New ideas → `ideas/triage-and-backlog.md`; promoted ideas get an RFC in `ideas/rfc/`; active builds get a project folder under `projects/`.
