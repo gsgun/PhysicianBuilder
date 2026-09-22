@@ -1,0 +1,11 @@
+# PHI + secrets + local state — never committed
+*.phar
+*.sqlite
+*.db
+.env
+.env.*
+secrets/
+*.secret
+.DS_Store
+# local scratch
+projects/*/SCRATCHPAD.md.local

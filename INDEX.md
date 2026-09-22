@@ -12,6 +12,11 @@
 
 ## SOPS
 - [standard-note-deployment tip sheet](operational-sops/clinician-tip-sheets/standard-note-deployment.md)
+- [automation-pipelines](operational-sops/automation-pipelines/README.md) — pipeline inventory + doc rules
+
+## Ideas & RFCs
+- [triage-and-backlog](ideas/triage-and-backlog.md)
+- [RFC-001 ED discharge navigator](ideas/rfc/rfc-001-ed-discharge-navigator.md)
 
 ---
 
@@ -42,20 +47,6 @@
 - [records](admission-med-rec-tip-text/admission-med-rec/records.md)
 - [troubleshooting-issues](admission-med-rec-tip-text/admission-med-rec/troubleshooting-issues.md)
 
-- [BUILD-CATALOG](builds/BUILD-CATALOG.md)
-- [README](builds/cer-rules/README.md)
-- [adt-event-rules](builds/cer-rules/adt-event-rules.md)
-- [composite-rules](builds/cer-rules/composite-rules.md)
-- [lab-value-rules](builds/cer-rules/lab-value-rules.md)
-- [README](builds/order-sets-navigators/README.md)
-- [epicact-links](builds/order-sets-navigators/epicact-links.md)
-- [lqf-afterloaded](builds/order-sets-navigators/lqf-afterloaded.md)
-- [README](builds/protocols-uris/README.md)
-- [README](builds/reporting-workbench/README.md)
-- [README](builds/smarttools/README.md)
-- [etx-composition](builds/smarttools/etx-composition.md)
-- [flo-formulas](builds/smarttools/flo-formulas.md)
-- [tip-texts](builds/smarttools/tip-texts.md)
 ## cath-pci-gdmt
 - [README](cath-pci-gdmt/cath-pci-gdmt/README.md)
 - [build-design](cath-pci-gdmt/cath-pci-gdmt/build-design.md)
@@ -112,11 +103,6 @@
 - [logic](gupta-surgery-risk-scores/untitled/lqf-1366/logic.md)
 - [xml](gupta-surgery-risk-scores/untitled/lqf-1366/xml.md)
 
-- [rfc-template](ideas/rfc/rfc-template.md)
-- [triage-and-backlog](ideas/triage-and-backlog.md)
-- [README](operational-sops/automation-pipelines/README.md)
-- [README](operational-sops/clinician-tip-sheets/README.md)
-- [standard-note-deployment](operational-sops/clinician-tip-sheets/standard-note-deployment.md)
 ## predicting-cvd-risk-events
 - [README](predicting-cvd-risk-events/predicting-cvd-risk-events/README.md)
 - [README](predicting-cvd-risk-events/predicting-cvd-risk-events/cer/README.md)
