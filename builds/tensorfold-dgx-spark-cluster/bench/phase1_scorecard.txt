@@ -1,0 +1,51 @@
+=== PHASE 1 (0008-D2 + 0008-A) VERIFICATION SCORECARD ===
+Config: TP2_DRAFT_REPL=1 (replicated rank-local DFlash2, 0 draft NCCL),
+        --checkpoint-slots 32, TF_SLOT_KV_CAP=16384, CDMC=1, NCCL default (RING).
+Boot: 16 (head spark1 .139 rank0 / worker spark2 .150 rank1). 2026-10-24 ~23:40.
+
+[1] 0007 BOOT GATE — PASS
+    fwd/round=1.00  target-colls/round=128.0 OK  draft-colls/round=0.0
+    dist-ag/round=130.0 (target 128.0, non-target 2.0 = split-sampling)
+    NOTE: draft 12/round (stock sharded) -> 0.0 (replicated). The transient
+    112.6 reading was a 0007 counter bug: round-0 reset omitted st["colls"],
+    leaking the request's prefill gathers (5630/50r) into total_per. Fixed by
+    resetting st["colls"]=0 in the round-0 block (prod tp2batchverify md5 c32e6a1f).
+
+[2] 14/14 BYTE-EXACT PARITY — PASS (0008-A == sharded drafter, byte-identical)
+    C=1:  prose token_sha 0bf87f0482b7 + text d5589b366369  (PASS)
+          code  token_sha d45247c458fa + text 39191bf72982  (PASS)
+    C=4:  prose x4 all 0bf87f0482b7/d5589b366369  (PASS)
+          code  x4 all d45247c458fa/39191bf72982  (PASS)
+
+[3] 5-AGENT PREFIX-CACHE PROBE (0008-D) — PASS, zero LRU eviction @ 15 entries
+    5 distinct ~4k prefixes x 3 turns (interleaved) = 15 checkpoint entries (> old 12 cap)
+    cold turn1: cached=0, prefill ~8.0s (5/5)
+    warm turn2/3: cached 4213-4321 tok, prefill_s 0.14-0.21s (10/10)
+    EVICTED: NONE
+
+[4] w8a16_c4.sh BATTERY  A/B (Arm A boot-10 vs Arm B Phase 1)
+    run     ArmA      ArmB(avg)   delta
+    p1d     47.68     47.51       -0.4%
+    c1d     94.46     97.43       +3.1%
+    p4d    129.06     124.2(3r)   -3.8%
+    c4d    220.03     210.8(3r)   -4.2%
+    m4d        -      128.85       -
+    c4off   40.04     39.98       -0.15%
+    N=1 holds/improves; no-draft holds; N=4 draft down ~4% (consistent, 3 runs)
+    = expected cost: each rank runs the FULL drafter redundantly (2x drafter FLOPs).
+
+[5] BONUS NCCL_ALGO Tree vs RING — RING is the only option
+    NCCL_ALGO=Tree -> ncclInvalidUsage at first int8 AllGather:
+    "No algorithm/protocol available for function AllGather with datatype ncclInt8"
+    (NCCL 2.30.7: Tree AllGather for int8 unsupported). Kept default RING.
+
+HOST HEALTH: spark2 MemAvailable 79 GiB (no adverse drift), swap 3G/16G stable,
+             co-tenants ~2GB RSS (dec2_bridge 1.5G, llama-server 332M, python 173M).
+
+PROMOTION: launch-tp2.sh md5 cc299607 (slots32 + TF_SLOT_KV_CAP:-16384 +
+           -e passthrough + TP2_DRAFT_REPL=1, RING default, no NCCL_ALGO).
+           patches: tp2slotcap.py, tp2draftrepl.py, tp2batchverify.py (c32e6a1f fixed),
+           tensorfold/__init__.py (shadow 0008-A + 0008-D2). Both nodes md5-parity.
+           Backups: .bak-pre-0008d2-1024, .bak-pre-0008-1024, .bak-armA-1024,
+                    .bak-pre-treeprobe-1024.
+VERDICT: Phase 1 PROMOTED to production. Ready for Phase 2 (0008-B2 two-graph CUDA capture).
