@@ -1,0 +1,28 @@
+# Tunables for the discharges-within-window-of-transfer metric.
+# Values mirror the requester's template config (docs/template-config.md).
+# Edit + version this file; the metric is deterministic for a fixed config.
+
+# Look-back window in hours (the "24 h" in the ask).
+window_hours: 24.0
+
+# Minimum hours between the transfer and the discharge (0 = allow same-time).
+min_delta_hours: 0.0
+
+# Multi-transfer rule: keep the transfer CLOSEST to the discharge per encounter
+# (requester rule). Options: closest_to_discharge | count_all | earliest.
+dedup_rule: closest_to_discharge
+
+# Source time zone of Eff Date Time / Disch Date/Time (PDT at Riverbend).
+timezone: America/Los_Angeles
+
+# Transfers whose PREVIOUS event was in one of these units (criterion 2006 -> 50).
+# [FROM RWB: from_unit_filter] — requester: RBMC NT ICU / RBMC CV ICU.
+from_units: [RBMC NT ICU, RBMC CV ICU]
+
+# Exclude transfers where from_unit == to_unit (intra-unit; template already
+# sets "Include intra-unit transfers? = No", so this is a safety re-check).
+exclude_same_location: true
+
+# Ignore transfers more than this many hours back-dated relative to the
+# discharge. null = no cap.
+max_back_date_hours: null

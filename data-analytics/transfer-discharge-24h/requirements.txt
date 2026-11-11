@@ -1,0 +1,4 @@
+# Core metric is stdlib-only (Python 3.9+). PyYAML is optional —
+# src/config.py has a flat-schema fallback if it is absent.
+# Tests use stdlib unittest (no test runner dependency).
+pyyaml>=6.0

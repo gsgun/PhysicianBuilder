@@ -1,0 +1,32 @@
+-- 01_template_m24047.sql
+-- The transfer universe is produced by an RWB TEMPLATE, not hand-rolled SQL.
+-- This file documents that "query" so it is reproducible in the repo.
+--
+-- Template:  Modify ADT Transfers [Location]
+-- Model:     M24047   (criteria/model ID 100432)
+-- Limits:    MAXED OUT (raise the row cap so the full set exports)
+--
+-- Default criteria (verbatim):
+--   Effective date from : 11/10/2025
+--   Effective date to   : 11/9/2026
+--   Use statistical definition of transfer? : Yes
+--   Reporting base class : Inpatient OR / Observation
+--   Only transfer in?   : Yes
+--   Include intra-unit transfers? : No
+--   Revenue location    : RIVERBEND MEDICAL CENTER
+--
+-- Where clause (the ICU filter):
+--   Unit: RBMC NT ICU OR RBMC CV ICU
+--   implemented via ADD criterion 2006 "Previous Event for the encounter"
+--   linked to item 50 (the unit item) => rows whose PRECEDING event's unit is
+--   an ICU => every transfer OUT of the ICU.
+--
+-- Export columns: MRN, CSN, Name, Attending, From Unit/Room/Bed/Class/Service,
+--   To Unit/Room/Bed/Class/Service, Eff Date Time, Disch Date/Time,
+--   Patient ID, DAT, Discharge Provider.
+--
+-- Run it in Template Editor (M24047 / 100432), max the limits, export to
+-- .xls/.xlsx/.csv, then:
+--   python3 -m src.pipeline --input data/<export> --config config/metric.yaml --out output/
+--
+-- [FROM RWB: timezone] confirm the time zone of Eff Date Time / Disch Date/Time.

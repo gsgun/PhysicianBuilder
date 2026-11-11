@@ -123,6 +123,16 @@
 
 * [Secure Chat](data-analytics/secure-chat/README.md)
   * [SQL](data-analytics/secure-chat/sql.md)
+* [Discharges Within 24 Hours of Transfer](data-analytics/transfer-discharge-24h/README.md)
+  * [GUIDE — Power BI vs Jupyter](data-analytics/transfer-discharge-24h/GUIDE.md)
+  * [Build Design](data-analytics/transfer-discharge-24h/BUILD-DESIGN.md)
+  * [Metric Definition](data-analytics/transfer-discharge-24h/docs/metric-definition.md)
+  * [Template Config](data-analytics/transfer-discharge-24h/docs/template-config.md)
+  * [ADT Event Taxonomy](data-analytics/transfer-discharge-24h/docs/adt-event-taxonomy.md)
+  * [RWB Datasource](data-analytics/transfer-discharge-24h/docs/rwb-datasource.md)
+  * [Glossary](data-analytics/transfer-discharge-24h/docs/glossary.md)
+  * [ROADMAP](data-analytics/transfer-discharge-24h/ROADMAP.md)
+  * [PROJECT](data-analytics/transfer-discharge-24h/PROJECT.md)
 
 ## StandardNotes
 

@@ -62,6 +62,9 @@
 - [etx-composition](./builds/smarttools/etx-composition.md)
 - [flo-formulas](./builds/smarttools/flo-formulas.md)
 - [tip-texts](./builds/smarttools/tip-texts.md)
+- [CHANGELOG](./builds/tensorfold-dgx-spark-cluster/CHANGELOG.md)
+- [README](./builds/tensorfold-dgx-spark-cluster/README.md)
+- [RESIDENT-BOOT](./builds/tensorfold-dgx-spark-cluster/runbook/RESIDENT-BOOT.md)
 
 ## cath-pci-gdmt
 - [README](./cath-pci-gdmt/cath-pci-gdmt/README.md)
@@ -87,6 +90,15 @@
 ## data-analytics
 - [README](./data-analytics/secure-chat/README.md)
 - [sql](./data-analytics/secure-chat/sql.md)
+- [BUILD-DESIGN](./data-analytics/transfer-discharge-24h/BUILD-DESIGN.md)
+- [PROJECT](./data-analytics/transfer-discharge-24h/PROJECT.md)
+- [README](./data-analytics/transfer-discharge-24h/README.md)
+- [ROADMAP](./data-analytics/transfer-discharge-24h/ROADMAP.md)
+- [adt-event-taxonomy](./data-analytics/transfer-discharge-24h/docs/adt-event-taxonomy.md)
+- [glossary](./data-analytics/transfer-discharge-24h/docs/glossary.md)
+- [metric-definition](./data-analytics/transfer-discharge-24h/docs/metric-definition.md)
+- [rwb-datasource](./data-analytics/transfer-discharge-24h/docs/rwb-datasource.md)
+- [template-config](./data-analytics/transfer-discharge-24h/docs/template-config.md)
 
 ## gupta-surgery-risk-scores
 - [README](./gupta-surgery-risk-scores/untitled/README.md)

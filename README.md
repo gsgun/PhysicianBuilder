@@ -23,6 +23,7 @@ In Progress:
 * Cardiac PCI Quality Metric
 * Hospitalist Quality Metric Update
 * [Secure Chat Templates Pharmacy](https://app.gitbook.com/s/6Caf1JA5ufQharGpTSxg/data-analytics)
+* [Discharges Within 24 Hours of Transfer](data-analytics/transfer-discharge-24h/README.md) — inpatient throughput metric (RWB ADT transfer events)
 * ED Scoring Tools Rule Updates
 
 
